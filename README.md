@@ -30,8 +30,7 @@ This repository contains the **Strapi CMS** backend for the IO-Tech technical ta
 |---------------|-------------------------------|
 | Strapi v4     | Headless CMS (Node.js-based)  |
 | SQLite (local) / PostgreSQL (Render) | Database |
-| Render        | CMS hosting                   |
-| strapi-plugin-import-export-entries | Data migration between local ↔ live |
+
 
 ---
 
