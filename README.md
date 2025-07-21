@@ -1,61 +1,74 @@
-# 🚀 Getting started with Strapi
+# 🗂 IO-Tech CMS – Strapi Backend
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+This repository contains the **Strapi CMS** backend for the IO-Tech technical task.  
 
-### `develop`
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
 
-```
-npm run develop
-# or
-yarn develop
-```
-
-### `start`
-
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
-
-```
-npm run start
-# or
-yarn start
-```
-
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
-
-## ⚙️ Deployment
-
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
-
-```
-yarn strapi deploy
-```
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+📦 **Frontend GitHub Repo**: [https://github.com/Albinbenny09/io-tech-frontend](https://github.com/Albinbenny09/io-tech-frontend)
 
 ---
 
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+## ✅ Features
+
+- ✍️ Dynamic content for:
+  - Services
+  - Team Members
+  - Clients (Testimonials)
+  - Subscribers (Email capture)
+  - Blog Posts (optional)
+- 🌍 Multilingual content (English & Arabic)
+- 🖼️ Image & media management using Strapi Upload plugin
+- 🔄 Data import/export using `strapi-plugin-import-export-entries`
+- 🔓 Public API access (GET) for frontend integration
+- 🧾 Proper content relationships and Slug-based URL routing
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool          | Purpose                      |
+|---------------|-------------------------------|
+| Strapi v4     | Headless CMS (Node.js-based)  |
+| SQLite (local) / PostgreSQL (Render) | Database |
+| Render        | CMS hosting                   |
+| strapi-plugin-import-export-entries | Data migration between local ↔ live |
+
+---
+
+## 🚀 Local Development Setup
+
+### 1️⃣ Clone the Repo
+
+```bash
+git clone https://github.com/Albinbenny09/io-tech-cms
+cd io-tech-cms
+2️⃣ Install Dependencies
+bash
+Copy
+Edit
+npm install
+
+
+4️⃣ Run Strapi Locally
+bash
+Copy
+Edit
+npm run develop
+CMS will be available at: http://localhost:1337/admin
+
+Now you can check the fortend at:
+
+Create the first admin user when prompted.
+
+📁 Content Types
+Collection Name	Description
+services	Title, slug, category, images, description
+team-members	Name, position, contact info, photo
+clients	Name, position, comment, image
+subscribers	Email addresses for newsletter
+
+
+📞 Contact
+Albin Benny
+📧 albinbenny1515@gmail.com
+📱 +971-558819072
