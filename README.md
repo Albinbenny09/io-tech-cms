@@ -42,29 +42,24 @@ This repository contains the **Strapi CMS** backend for the IO-Tech technical ta
 git clone https://github.com/Albinbenny09/io-tech-cms
 cd io-tech-cms
 2️⃣ Install Dependencies
-bash
-Copy
-Edit
+
 npm install
 
 
 4️⃣ Run Strapi Locally
-bash
-Copy
-Edit
+
 npm run develop
+
 CMS will be available at: http://localhost:1337/admin
 
-Now you can check the fortend at:
+## CMS Login (Strapi Admin Panel)
+URL: http://localhost:1337/admin
+Email: recruiter@example.com
+Password: Recruiter123!
 
-Create the first admin user when prompted.
+Now you can check the frontend at:  http://localhost:3000
 
-📁 Content Types
-Collection Name	Description
-services	Title, slug, category, images, description
-team-members	Name, position, contact info, photo
-clients	Name, position, comment, image
-subscribers	Email addresses for newsletter
+
 
 
 📞 Contact
